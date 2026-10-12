@@ -1,0 +1,10 @@
+{
+  "name": "task-tracker-node-express",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Task Tracker API for consistent FDE evaluation",
+  "main": "src/server.js",
+  "scripts": {"start": "node src/server.js", "dev": "node --watch src/server.js", "test": "node --test"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"express": "^4.21.2"}
+}
